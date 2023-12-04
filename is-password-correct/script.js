@@ -6,9 +6,8 @@ let myPassword = prompt('Type your password: ');
 
 if (myPassword == '12341234') {
     console.log('Welcome to the website');
-} else {
-    console.log('Incorrect password');
 }
+console.log('Incorrect password');
 
 
 
