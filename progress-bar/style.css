@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* height: 100vh; */
+  /* display: flex; */
+  /* background: linear-gradient(to top left, #e65ba1, #e489e7); */
+  margin: 0;
+}
+
+.progress-bar-container {
+  margin-inline: 1rem;
+  padding: 0.5rem;
+  display: flex;
+  gap: 0.5rem;
+}
+.indicator {
+  font-family: monospace;
+  font-size: 0.9rem;
+  color: rgb(0, 0, 0);
+}
+.progress-bar-wrapper {
+  flex-grow: 1;
+  position: relative;
+}
+.progress-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  background-color: green;
+}
